@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.CustomizationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty_two_text"
+        android:layout_margin="8dp"
+        android:text="Population Size"
+        android:id="@+id/pop_size_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="25"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:id="@+id/pop_size_input"
+        android:layout_toRightOf="@id/mutation_text"
+        android:maxLength="3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty_two_text"
+        android:layout_margin="8dp"
+        android:text="Life Time"
+        android:id="@+id/life_text"
+        android:layout_below="@id/pop_size_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="400"
+        android:inputType="number"
+        android:textSize="24sp"
+        android:id="@+id/life_input"
+        android:layout_below="@id/pop_size_text"
+        android:layout_toRightOf="@id/mutation_text"
+        android:maxLength="3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty_two_text"
+        android:layout_margin="8dp"
+        android:text="Mutation Chance"
+        android:id="@+id/mutation_text"
+        android:layout_below="@id/life_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="numberDecimal"
+        android:hint="0.01"
+        android:textSize="24sp"
+        android:id="@+id/mutation_input"
+        android:layout_below="@id/life_text"
+        android:layout_toRightOf="@id/mutation_text" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mutation_bar"
+        android:layout_below="@id/mutation_text"
+        android:layout_margin="8dp"
+        android:thumbTint="@color/colorPrimary"
+        android:progressBackgroundTint="@color/colorPrimary"
+        android:min="0"
+        android:max="1000"
+        android:progress="10"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8608400328593307/4922867467">
+        <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartRockets</string>
+    <string name="smart_rockets">Smart Rockets</string>
+    <string name="simulation">Simulation</string>
+    <string name="customization">Rocket Customization</string>
+    <string name="level_editor">Level Editor</string>
+    <string name="save">Save</string>
+    <string name="population">Population</string>
+    <string name="lifespan">Lifespan</string>
+    <string name="mutation">Mutation</string>
+</resources>
