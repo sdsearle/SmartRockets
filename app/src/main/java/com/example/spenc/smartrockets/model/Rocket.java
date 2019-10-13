@@ -48,11 +48,15 @@ public class Rocket {
     void calcFitness(Barrier barrier){
         // Takes distance to target
         double dt = Math.hypot(position.getX()-target.getX(), position.getY()-target.getY());
+        if (dt == 0){
+            dt = 0.01;
+        }
+        dt = Math.hypot(spawn.getX()-target.getX(), spawn.getY()-target.getY())/dt;
         // Takes distance to spawn
         double ds = Math.hypot(position.getX()-spawn.getX(), position.getY()-spawn.getY());
         //calculated fitness
         //TODO:calculate fitness bases on additional flags that determine what gets calculated in fitness
-        fitness = dt + ds;
+        fitness = dt;// + ds *2;
         // If rocket gets to target increase fitness of rocket
         if (isFinished) {
             this.fitness *= 10;
