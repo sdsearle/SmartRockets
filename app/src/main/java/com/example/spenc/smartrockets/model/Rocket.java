@@ -52,7 +52,7 @@ public class Rocket {
         double ds = Math.hypot(position.getX()-spawn.getX(), position.getY()-spawn.getY());
         //calculated fitness
         //TODO:calculate fitness bases on additional flags that determine what gets calculated in fitness
-        fitness = dt + ds*2;
+        fitness = dt + ds;
         // If rocket gets to target increase fitness of rocket
         if (isFinished) {
             this.fitness *= 10;
