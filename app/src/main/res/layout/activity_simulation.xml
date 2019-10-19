@@ -10,7 +10,7 @@
     <view
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.example.spenc.smartrockets.view.SimulationView"
+        class="com.zolon.spenc.smartrockets.view.SimulationView"
         android:background="@android:color/transparent"
         android:id="@+id/simulation_view"
         />

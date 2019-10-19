@@ -1,9 +1,8 @@
-package com.example.spenc.smartrockets.model;
+package com.zolon.spenc.smartrockets.model;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.util.DisplayMetrics;
 
 public class Rocket {
 

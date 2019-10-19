@@ -1,4 +1,4 @@
-package com.example.spenc.smartrockets.view;
+package com.zolon.spenc.smartrockets.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.spenc.smartrockets.R;
-import com.example.spenc.smartrockets.presenter.MainPresenter;
+import com.zolon.spenc.smartrockets.R;
+import com.zolon.spenc.smartrockets.presenter.MainPresenter;
 
 import androidx.appcompat.app.AppCompatActivity;
 

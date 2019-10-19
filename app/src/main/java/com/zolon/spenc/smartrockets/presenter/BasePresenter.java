@@ -1,6 +1,6 @@
-package com.example.spenc.smartrockets.presenter;
+package com.zolon.spenc.smartrockets.presenter;
 
-import com.example.spenc.smartrockets.view.BaseView;
+import com.zolon.spenc.smartrockets.view.BaseView;
 
 public interface BasePresenter<V extends BaseView> {
 

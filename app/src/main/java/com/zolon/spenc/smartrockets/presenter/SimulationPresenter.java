@@ -1,17 +1,17 @@
-package com.example.spenc.smartrockets.presenter;
+package com.zolon.spenc.smartrockets.presenter;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.example.spenc.smartrockets.R;
-import com.example.spenc.smartrockets.model.Barrier;
-import com.example.spenc.smartrockets.model.DNA;
-import com.example.spenc.smartrockets.model.Population;
-import com.example.spenc.smartrockets.model.Rocket;
-import com.example.spenc.smartrockets.view.SimView;
-import com.example.spenc.smartrockets.model.ZVector;
+import com.zolon.spenc.smartrockets.R;
+import com.zolon.spenc.smartrockets.model.Barrier;
+import com.zolon.spenc.smartrockets.model.DNA;
+import com.zolon.spenc.smartrockets.model.Population;
+import com.zolon.spenc.smartrockets.model.Rocket;
+import com.zolon.spenc.smartrockets.view.SimView;
+import com.zolon.spenc.smartrockets.model.ZVector;
 
 public class SimulationPresenter<V extends SimView>  {
 

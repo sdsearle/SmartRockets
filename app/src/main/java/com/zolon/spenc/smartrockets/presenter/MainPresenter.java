@@ -1,9 +1,4 @@
-package com.example.spenc.smartrockets.presenter;
-
-import android.content.Intent;
-import android.view.View;
-
-import com.example.spenc.smartrockets.view.MainMenuActivity;
+package com.zolon.spenc.smartrockets.presenter;
 
 public class MainPresenter implements BasePresenter {
 

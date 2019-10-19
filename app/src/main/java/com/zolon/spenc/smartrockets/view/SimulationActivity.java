@@ -1,8 +1,8 @@
-package com.example.spenc.smartrockets.view;
+package com.zolon.spenc.smartrockets.view;
 
 import android.os.Bundle;
 
-import com.example.spenc.smartrockets.R;
+import com.zolon.spenc.smartrockets.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 

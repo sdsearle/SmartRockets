@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.spenc.smartrockets">
+    package="com.zolon.spenc.smartrockets">
 
     <application
         android:allowBackup="true"
@@ -17,15 +17,15 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-8608400328593307~5728898277"/>
 
-        <activity android:name=".view.MainMenuActivity">
+        <activity android:name="com.zolon.spenc.smartrockets.view.MainMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.SimulationActivity" />
-        <activity android:name=".view.CustomizationActivity"></activity>
+        <activity android:name="com.zolon.spenc.smartrockets.view.SimulationActivity" />
+        <activity android:name="com.zolon.spenc.smartrockets.view.CustomizationActivity"></activity>
     </application>
 
 </manifest>

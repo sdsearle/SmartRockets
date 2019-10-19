@@ -1,4 +1,4 @@
-package com.example.spenc.smartrockets.view;
+package com.zolon.spenc.smartrockets.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,12 +6,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PointF;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
-import com.example.spenc.smartrockets.model.Rocket;
-import com.example.spenc.smartrockets.presenter.SimulationPresenter;
+import com.zolon.spenc.smartrockets.model.Rocket;
+import com.zolon.spenc.smartrockets.presenter.SimulationPresenter;
 
 public class SimulationView extends View implements SimulationPresenter.View {
     private  Paint blue;

@@ -1,4 +1,4 @@
-package com.example.spenc.smartrockets.view;
+package com.zolon.spenc.smartrockets.view;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -6,13 +6,12 @@ import android.text.InputFilter;
 import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.SeekBar;
 
-import com.example.spenc.smartrockets.R;
-import com.example.spenc.smartrockets.presenter.CustomizationPresenter;
-import com.example.spenc.smartrockets.util.InputFilterMinMax;
+import com.zolon.spenc.smartrockets.R;
+import com.zolon.spenc.smartrockets.presenter.CustomizationPresenter;
+import com.zolon.spenc.smartrockets.util.InputFilterMinMax;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;

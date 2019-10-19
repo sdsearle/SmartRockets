@@ -1,6 +1,6 @@
-package com.example.spenc.smartrockets.view;
+package com.zolon.spenc.smartrockets.view;
 
-import com.example.spenc.smartrockets.model.Rocket;
+import com.zolon.spenc.smartrockets.model.Rocket;
 
 public interface SimView extends BaseView {
     void loadLevel();

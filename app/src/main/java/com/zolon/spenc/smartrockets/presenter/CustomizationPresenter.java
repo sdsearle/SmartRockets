@@ -1,11 +1,10 @@
-package com.example.spenc.smartrockets.presenter;
+package com.zolon.spenc.smartrockets.presenter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.example.spenc.smartrockets.R;
+import com.zolon.spenc.smartrockets.R;
 
 public class CustomizationPresenter implements BasePresenter {
 

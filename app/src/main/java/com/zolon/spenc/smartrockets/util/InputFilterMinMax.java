@@ -1,4 +1,4 @@
-package com.example.spenc.smartrockets.util;
+package com.zolon.spenc.smartrockets.util;
 
 import android.text.InputFilter;
 import android.text.Spanned;

@@ -1,4 +1,4 @@
-package com.example.spenc.smartrockets.model;
+package com.zolon.spenc.smartrockets.model;
 
 public class Barrier {
     private ZVector pos;
